@@ -43,7 +43,7 @@ public class StudentServiceImpl implements StudentService {
 
 	@Override
 	public Student updateStudent(Student s) {
-//		Student stu = studentRepository.findById(Id).get();
+	Student stu = studentRepository.findById(Id).get();
 //		stu.setName(s.getName());
 //		stu.setAddress(s.getAddress());
 //		return stu;
